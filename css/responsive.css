@@ -1,0 +1,458 @@
+@media (max-width:575px) {
+
+    /* ################# navbar start here ################### */
+    #navbar{
+        padding: 0;
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-brand img{
+        width: 154px;
+        height: 32px;
+    }
+
+    .navbar-collapse .nav-btn{
+        margin-left: 0 !important;
+    }
+    /* ################## navbar end here #################### */
+
+
+    /* ################# banner start here ################### */
+    #banner{
+        padding: 0;
+    }
+
+    #banner .flex-div{
+        flex-direction: column-reverse;
+    }
+
+    #banner .banner-right{
+        width: 275.8px;
+        height: 256px;
+        margin-left: auto;
+        margin-bottom: 24px;
+    }
+
+    #banner .banner-right img:last-child{
+        width: 108px;
+        height: 118px;
+        bottom: 25px;
+        left: -55px;
+    }
+
+    #banner .banner-left h1{
+        text-align: center;
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #banner .banner-left p{
+        font-size: 13px;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .banner-left .banner-btn{
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .banner-left span strong{
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .banner-left span{
+        font-size: 14px;
+    }
+
+    .banner-left span:last-child{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    /* ################## banner end here #################### */
+
+
+    /* ################# record start here ################### */
+    #record{
+        padding: 0;
+        margin-top: 88px;
+        margin-bottom: 32px;
+    }
+
+    #record .heading h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #record .heading p{
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+
+    #record .record-item{
+        margin-bottom: 32px;
+    }
+    /* ################## record end here #################### */
+
+
+    /* ################# different start here ################### */
+    #different{
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    #different .row{
+        flex-direction: column-reverse;
+    }
+
+    #different .right img{
+        width: 327px;
+        height: 234px;
+        margin-bottom: 24px;
+    }
+
+    #different .left h2{
+        max-width: 327px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #different .left p{
+        max-width: 304px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    #different .left ul{
+        max-width: 225px;
+        margin: 0 auto;
+    }
+
+    #different .left ul li{
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    #different .left a{
+        margin-left: 95px;
+    }
+    /* ################## different end here #################### */
+
+
+    /* ################# popular start here ################### */
+    #popular{
+        padding: 0;
+        padding-bottom: 32px;
+    }
+
+    #popular .heading h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #popular .heading p{
+        max-width: 327px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #popular .popular-tabs{
+        padding-right: 26px;
+        padding-left: 26px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: stretch;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    #popular .slider .carousel-indicators {
+        bottom: -5px;
+        left: 30%;
+    }
+
+    #popular .slider .carousel-indicators [data-bs-target]{
+        background: #7678ED;
+        margin: 0px 10px;
+    }
+
+    #popular .slider .carousel-indicators .active::after {
+        display: none;
+    }
+
+    .pop-btn button{
+        margin-top: 46px;
+    }
+    /* ################## popular end here #################### */
+
+
+    /* ################# pricing start here ################### */
+    #pricing{
+        padding:0px;
+        margin-top: 48px;
+        margin-bottom: 56px;
+    }
+
+    #pricing .heading h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px; 
+    }
+
+    #pricing .heading p{
+        max-width: 327px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #pricing .year{
+        margin-bottom: 32px;
+    }
+
+    .pricing-items .item{
+        margin-bottom: 24px;
+    }
+    /* ################## pricing end here #################### */
+
+
+    /* ################# articles start here ################### */
+    #articles{
+        padding: 0;
+        padding-bottom: 32px;
+        margin-bottom: 24px;
+    }
+
+    #articles .heading h2{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #articles .heading p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    }
+
+    #articles .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #articles .blog{
+        padding: 20px;
+    }
+
+    #articles .blog .image{
+        width: 100%;
+        height: 204px;
+    }
+
+    #articles .blog h3{
+        font-size: 18.031px;
+        line-height: 27.25px;
+        margin-bottom: 13.6px;
+    }
+
+    #articles .blog p{
+        font-size: 11.922px;
+        line-height: 20.437px;
+        margin-bottom: 20px;
+    }
+
+    #articles .blog a{
+        font-size: 15.328px;
+    }
+
+    #articles .slider .carousel-indicators {
+        bottom: -46px;
+        left: 34%;
+    }
+
+    #articles .slider .carousel-indicators [data-bs-target]{
+        background: #7678ED;
+        margin: 0px 15px;
+    }
+
+    #articles .slider .carousel-indicators .active::after {
+        display: none;
+    }
+
+    #articles .art-btn{
+        margin-top: 32px;
+    }
+    /* ################## articles end here #################### */
+
+
+    /* ################# beloved start here ################### */
+    #beloved{
+        padding: 0;
+        padding-top: 24px;
+        background: #FAFAFA;
+        margin-bottom: 0;
+    }
+
+    .margin-c{
+        margin: 0 auto;
+    }
+
+    #beloved .heading h2{
+        width: 306px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+
+    #beloved .d-flex {
+        margin-bottom: 0;
+    }
+
+    #beloved .carousel {
+        position: relative;
+        top: -20px;
+        z-index: 9999;
+    }
+
+    #beloved .carousel-item .beloved {
+        display: block;
+    }
+
+    #beloved .carousel-item .beloved .item .quotation::after {
+        width: 230px;
+    }
+
+    #beloved .carousel-item .beloved .item {
+        padding: 20px;
+        margin: 24px;
+    }
+
+    #beloved .carousel-item .beloved .item p {
+        max-width: 286px;
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 24px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile .p-image {
+        width: 48px;
+        height: 48px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile .p-details h4 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile .p-details p{
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
+    .blv-btn{
+        position: relative;
+    }
+
+    .blv-btn button {
+        position: absolute;
+        left: 86px;
+        bottom: -170px;
+        z-index: 9999;
+    }
+
+    .blv-btn-block:hover{
+        color: #FFF !important;
+        background: transparent; 
+        border: 1px solid #FFF;
+    }
+
+    .carousel-indicators {
+        bottom: -60px;
+        left: 34%;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        margin: 0px 15px;
+        position: relative;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 48px;
+        width: 48px;
+        line-height: 48px;
+    }
+
+    .carousel-control-prev {
+        bottom: -78px;
+        left: 45px;
+    }
+
+    .carousel-control-next {
+        bottom: -78px;
+        right: 45px;
+    }
+    /* ################## beloved end here #################### */
+
+
+    /* ################# footer start here ################### */
+    #footer {
+        padding-top: 360px;
+        margin-top: 0;
+        position: relative;
+        z-index: 999;
+        top: -140px;
+    }
+
+    #footer .ft-row {
+        margin-left: 4px;
+    }
+
+    #footer .f-credit {
+        max-width: 320px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+
+    #footer .links {
+        display: flex;
+        justify-content: start; 
+        column-gap: 58px;
+        flex-wrap: wrap;
+    }
+
+    #footer .links .item:nth-child(2){
+        margin-left: 15px;
+    }
+    /* ################## footer end here #################### */
+}

@@ -1,0 +1,1022 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Commissioner", serif;
+}
+
+ol,ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* ################################### navbar start here ############################################# */
+#navbar{
+    background: #FFF;
+    padding: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.navbar-nav{
+    column-gap: 40px;
+}
+
+.navbar-nav .nav-link{
+    color:#62636C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #F18701;
+}
+
+.navbar-collapse .nav-btn{
+    display: inline-block;
+    padding: 16px 32px;
+    margin-left: 20px;
+    background: #7678ED;
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    transition: all linear 0.3s;
+}
+
+.navbar-collapse .nav-btn:hover{
+    background: #5e5fbd;
+}
+/* ################################### navbar end here ############################################# */
+
+
+/* ################################### banner start here ############################################# */
+#banner{
+    background: #FFF;
+    padding: 48px 0px;
+}
+
+
+.banner-left h1{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    margin-bottom: 16px;
+}
+
+.banner-left p{
+    max-width: 416px;
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.banner-left .banner-btn{
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 56px;
+}
+
+.banner-left .banner-btn a{
+    display: inline-block;
+    padding: 18px 40px;
+    background: #7678ED;
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+
+.banner-left .banner-btn a:hover{
+    color: #7678ED;
+    background: #FFF;
+}
+
+.banner-left span strong{
+    display: inline-block;
+    color:#F18701;
+    font-family: Commissioner;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-right: 8px;
+}
+
+.banner-left span{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 24px;
+}
+
+.banner-right img:first-child{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-right{
+    position: relative;
+}
+
+.banner-right img:last-child{
+    position: absolute;
+    bottom: 68px;
+    left: -110px;
+}
+/* ################################### banner end here ############################################# */
+
+
+/* ################################### record start here ############################################# */
+#record{
+    background: #FAFAFA;
+    padding: 64px 0px;
+    margin-bottom: 48px;
+}
+
+#record .heading{
+    margin-bottom: 48px;
+}
+
+#record .heading h2{
+    color:#13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#record .heading p{
+    color:#898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#record .record-item{
+    padding: 24px 35px;
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.06);
+}
+
+#record .record-item img{
+    margin-bottom: 32px;
+}
+
+#record .record-item h3{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#record .record-item p{
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* ################################### record end here ############################################# */
+
+
+/* ################################### different start here ############################################# */
+#different{
+    padding: 48px 0px;
+    background: #FFF;
+    margin-bottom: 48px;
+}
+
+#different .left h2{
+    max-width: 491px;
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+#different .left p{
+    max-width: 386px;
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+#different .left ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+#different .left a{
+    display: inline-block;
+    padding: 18px 40px;
+    margin-top: 14px;
+    background: #7678ED;
+    border: 1px solid #7678ED;
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+
+#different .left a:hover{
+    color: #7678ED;
+    background: #FFF;
+}
+
+#different .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ################################### different end here ############################################# */
+
+
+/* ################################### popular start here ############################################# */
+#popular{
+    padding: 64px 0;
+    margin-bottom: 48px;
+    background: #FAFAFA;
+}
+
+#popular .heading h2{
+    color:#13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#popular .heading p{
+    color:#898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+#popular .popular-tabs{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 64px;
+}
+
+#popular .popular-tabs button{
+    text-transform: capitalize;
+    border: 1px solid #DDD;
+    background: transparent;
+    padding: 16px 32px;
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    transition: all linear 0.3s;
+}
+
+#popular .popular-tabs button:hover{
+    border: 1px solid #7678ED;
+    background: #7678ED;
+    color: #FFF;
+}
+
+.popular-items{
+    margin-bottom: 48px;
+}
+
+.slider-item{
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.popular-items .item{
+    background: #FFF;
+    padding: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.popular-items .item .card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.popular-items .item .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-items .item .details .title h3{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.popular-items .item .details .title span{
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.popular-items .item .details .title .ep-no{
+    position: relative;
+}
+
+.popular-items .item .details .title .ep-no::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #7678ED;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -6px;
+}
+
+.popular-items .item .details .title .time-duration{
+    margin-left: 16px;
+}
+
+.popular-items .item .details i{
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #DDD;
+    color: #7678ED;
+    position: relative;
+}
+
+
+.pop-btn button{
+    text-transform: capitalize;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    background: #7678ED;
+    color: #FFF;
+    transition: all linear 0.3s;
+}
+
+.pop-btn button:hover{
+    color: #7678ED;
+    background: transparent;
+}
+
+/* ################################### popular end here ############################################# */
+
+
+/* ################################### pricing start here ############################################# */
+#pricing{
+    padding: 48px 0px;
+    background: #FFF;
+    margin-bottom: 48px;
+}
+
+#pricing .heading h2{
+    color:#13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#pricing .heading p{
+    max-width: 386px;
+    margin: 0 auto;
+    color:#898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+#pricing .year{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 48px;
+}
+
+#pricing .year button{
+    text-transform: capitalize;
+    border: 1px solid #DDD;
+    background: transparent;
+    padding: 16px 32px;
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    transition: all linear 0.3s;
+}
+
+#pricing .year button:hover{
+    border: 1px solid #7678ED;
+    background: #7678ED;
+    color: #FFF;
+}
+
+.pricing-items .item{
+    padding: 24px;
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.1);
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+.pricing-items .item:hover{
+    background: #7678ED;
+}
+
+.pricing-items .item h3{
+    color:#13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 24px;
+}
+
+.pricing-items .item:hover h3{
+    color: #FFF;
+}
+
+.pricing-items .item p{
+    max-width: 240px;
+    margin: 0 auto;
+    color:#898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.pricing-items .item:hover p{
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.pricing-items .item span{
+    color:#898998;
+    text-align: right;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 4px;
+}
+
+.pricing-items .item:hover span{
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.pricing-items .item span strong{
+    color:#13132C;
+    text-align: right;
+    font-family: Commissioner;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.pricing-items .item:hover span strong{
+    color: #FFF;
+}
+
+.pricing-items .item ul{
+    margin-top: 34px;
+    padding-left: 110px;
+    margin-bottom: 34px;
+}
+
+.pricing-items .item ul li{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 16px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.pricing-items .item:hover ul li{
+    color: #FFF;
+}
+
+.pricing-items .item ul li i{
+    position: absolute;
+    top: 3px;
+    left: -30px;
+    color: #7678ED;
+}
+
+.pricing-items .item:hover ul li i{
+    color: #FFF;
+}
+
+.pricing-items .item a{
+    display: block;
+    text-transform: capitalize;
+    padding: 18px 0px;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.pricing-items .item:hover a{
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.pricing-items .item:hover a:hover{
+    color: #7678ED;
+    background: #FFF;
+}
+/* ################################### pricing end here ############################################# */
+
+
+/* ################################### articles start here ############################################# */
+#articles{
+    padding: 48px 0px;
+    background: #FAFAFA;
+    margin-bottom: 48px;
+}
+
+#articles .heading h2{
+    color:#13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#articles .heading p{
+    max-width: 533px;
+    margin: 0 auto;
+    color:#898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+#articles .blog{
+    padding: 24px;
+    background: #FFF;
+}
+
+#articles .blog .image{
+    height: 240px;
+    overflow: hidden;
+    background: #898998;
+    margin-bottom: 24px;
+}
+
+#articles .blog .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#articles .blog h3{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+#articles .blog p{
+    max-width: 336px;
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#articles .blog a{
+    display: inline-block;
+    color:#F18701;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#articles .blog a i{
+    width: 20px;
+    margin-left: 12px;
+}
+
+.art-btn button{
+    margin-top: 48px;
+    text-transform: capitalize;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    background: #7678ED;
+    color: #FFF;
+    transition: all linear 0.3s;
+}
+
+.art-btn button:hover{
+    color: #7678ED;
+    background: transparent;
+}
+/* ################################### articles end here ############################################# */
+
+
+/* ################################### beloved start here ############################################# */
+#beloved{
+    padding-top: 48px;
+    background: #FFF;
+    margin-bottom: 48px;
+}
+
+#beloved .heading h2{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.blv-btn button{
+    text-transform: capitalize;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    background: #7678ED;
+    color: #FFF;
+    transition: all linear 0.3s;
+}
+
+.blv-btn button:hover{
+    color: #7678ED;
+    background: transparent;
+}
+
+#beloved .d-flex{
+    margin-bottom: 56px;
+}
+
+#beloved .carousel-item .beloved{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#beloved .carousel-item .beloved .item{
+    padding: 24px;
+    border-top: 2px solid #DDD;
+    background: #FFF;
+}
+
+.carousel-item .beloved .item .quotation{
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.carousel-item .beloved .item .quotation::after{
+    content: '';
+    position: absolute;
+    width: 298px;
+    height: 2px;
+    background: #DDD;
+    top: 60%;
+    left:32px;
+}
+
+.carousel-item .beloved .item p{
+    max-width: 336px;
+    color:#62636C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 34px;
+}
+
+.carousel-item .beloved .item .profile{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.carousel-item .beloved .item .profile .p-image{
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #898998;
+}
+
+.carousel-item .beloved .item .profile .p-details h4{
+    color:#13132C;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.carousel-item .beloved .item .profile .p-details p{
+    color:#898998;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FFF;
+    border: 0;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.carousel-indicators .active::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #FFF;
+    top: -12px;
+    left: -12px;
+}
+
+.carousel-indicators{
+    justify-content: start;
+    bottom: -60px;
+    left: 44%;
+    margin: 0;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    color: #FFF;
+    font-size: 16px;
+    height: 56px;
+    width: 56px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+    background: transparent;
+}
+
+.carousel-control-prev{
+    align-items: end;
+    justify-content: end;
+    bottom: -82px;
+    left: 350px;
+
+}
+
+.carousel-control-next{
+    align-items: end;
+    justify-content: start;
+    bottom: -82px;
+    right: 360px;
+    z-index: 999;
+}
+
+.slider-edit{
+    width: 100%;
+    position: relative;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+/* ################################### beloved end here ############################################# */
+
+
+/* ################################### footer start here ############################################# */
+#footer{
+    padding-top: 300px;
+    padding-bottom: 32px;
+    background: #13132C;
+    margin-top: 190px;
+}
+
+#footer .ft-row{
+    margin-bottom: 24px;
+}
+
+#footer .f-image{
+    margin-bottom: 24px;
+}
+
+#footer .f-credit{
+    max-width: 360px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#footer .links{
+    display: flex;
+    justify-content: end;
+    column-gap: 96px;
+}
+
+#footer .links .item h3{
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+#footer .links .item ul li a{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Commissioner;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+#footer .links .item ul li .mail{
+    text-transform: lowercase;
+    margin: 0;
+}
+
+#footer .links .item ul li{
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+
+#footer .links .item ul li i{
+    color: rgba(255, 255, 255, 0.72);
+    margin-right: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#footer .line{
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.64);
+    margin-bottom: 24px;
+}
+
+#footer .copyright{
+    color: #FFF;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+/* ################################### footer end here ############################################# */
