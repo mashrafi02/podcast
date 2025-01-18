@@ -936,10 +936,6 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 190px;
 }
 
-#footer .ft-row{
-    margin-bottom: 24px;
-}
-
 #footer .f-image{
     margin-bottom: 24px;
 }
@@ -947,7 +943,6 @@ h1,h2,h3,h4,h5,h6,p{
 #footer .f-credit{
     max-width: 360px;
     color: rgba(255, 255, 255, 0.72);
-    font-family: Commissioner;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -956,13 +951,12 @@ h1,h2,h3,h4,h5,h6,p{
 
 #footer .links{
     display: flex;
-    justify-content: end;
+    justify-content: start;
     column-gap: 96px;
 }
 
-#footer .links .item h3{
+#footer .links h3{
     color: #FFF;
-    font-family: Commissioner;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -970,10 +964,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 32px;
 }
 
-#footer .links .item ul li a{
+#footer .links ul li a{
     display: inline-block;
     color: rgba(255, 255, 255, 0.72);
-    font-family: Commissioner;
     font-size: 14px;
     text-transform: capitalize;
     font-style: normal;
@@ -981,14 +974,12 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 16px;
 }
 
-#footer .links .item ul li .mail{
+#footer .links ul li .mail{
     text-transform: lowercase;
-    margin: 0;
 }
 
-#footer .links .item ul li{
+#footer .links ul li{
     color: rgba(255, 255, 255, 0.72);
-    font-family: Commissioner;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -996,24 +987,22 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 24px;
 }
 
-#footer .links .item ul li i{
-    color: rgba(255, 255, 255, 0.72);
-    margin-right: 8px;
-    font-size: 20px;
+#footer .links ul li i{
     vertical-align: middle;
+    font-size: 16px;
+    margin-right: 8px;
 }
 
 #footer .line{
-    width: 100%;
+    margin-top: 24px;
     height: 1px;
+    width: 100%;
     background: rgba(255, 255, 255, 0.64);
     margin-bottom: 24px;
 }
 
 #footer .copyright{
     color: #FFF;
-    text-align: center;
-    font-family: Commissioner;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

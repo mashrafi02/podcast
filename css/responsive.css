@@ -1,32 +1,46 @@
-@media (max-width:575px) {
-
-    /* ################# navbar start here ################### */
-    #navbar{
-        padding: 0;
-        margin-top: 40px;
-        margin-bottom: 48px;
+@media (min-width:320px) and (max-width:575px){
+    /* ######################################### navbar start here ################################################ */
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 14px;
     }
 
-    .navbar-toggler{
-        border: none;
-    }
-
-    .navbar-toggler:focus{
-        box-shadow: none;
+    .navbar-brand{
+        width: 150px;
     }
 
     .navbar-brand img{
-        width: 154px;
-        height: 32px;
+        width: 100%;
     }
 
-    .navbar-collapse .nav-btn{
-        margin-left: 0 !important;
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none
     }
-    /* ################## navbar end here #################### */
+
+    .navbar-toggler {
+        padding: 0.3rem 0.4rem !important;
+        font-size: 16px !important;
+    }
+
+    .navbar-collapse .nav-btn {
+        padding: 10px 16px;
+        margin-left: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        line-height: 0.8;
+    }
+
+    .navbar-nav {
+        margin-bottom: 7px;
+    }
+    /* ######################################### navbar end here ################################################ */
 
 
-    /* ################# banner start here ################### */
+    /* ######################################### banner start here ################################################ */
     #banner{
         padding: 0;
     }
@@ -35,424 +49,412 @@
         flex-direction: column-reverse;
     }
 
-    #banner .banner-right{
-        width: 275.8px;
-        height: 256px;
-        margin-left: auto;
-        margin-bottom: 24px;
-    }
-
-    #banner .banner-right img:last-child{
-        width: 108px;
-        height: 118px;
-        bottom: 25px;
-        left: -55px;
-    }
-
-    #banner .banner-left h1{
+    .banner-left h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
         text-align: center;
-        font-size: 28px;
-        line-height: 36px;
-        margin-bottom: 16px;
+        margin-top: 14px;
     }
 
-    #banner .banner-left p{
-        font-size: 13px;
+    .banner-left p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
         text-align: center;
-        line-height: 24px;
-        margin-bottom: 24px;
     }
 
-    .banner-left .banner-btn{
+    .banner-left .banner-btn {
         justify-content: center;
-        margin-bottom: 32px;
+        column-gap: 12px;
+        margin-bottom: 18px;
     }
 
-    .banner-left span strong{
-        font-size: 36px;
-        line-height: 43px;
-    }
-
-    .banner-left span{
-        font-size: 14px;
-    }
-
-    .banner-left span:last-child{
-        margin-left: 25px;
-        margin-right: 0;
-    }
-    /* ################## banner end here #################### */
-
-
-    /* ################# record start here ################### */
-    #record{
-        padding: 0;
-        margin-top: 88px;
-        margin-bottom: 32px;
-    }
-
-    #record .heading h2{
-        text-align: center;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 16px;
-    }
-
-    #record .heading p{
-        font-size: 12px;
-        line-height: 24px;
-        margin-bottom: 32px;
-    }
-
-    #record .record-item{
-        margin-bottom: 32px;
-    }
-    /* ################## record end here #################### */
-
-
-    /* ################# different start here ################### */
-    #different{
-        padding: 0;
-        margin-bottom: 80px;
-    }
-
-    #different .row{
-        flex-direction: column-reverse;
-    }
-
-    #different .right img{
-        width: 327px;
-        height: 234px;
-        margin-bottom: 24px;
-    }
-
-    #different .left h2{
-        max-width: 327px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 16px;
-    }
-
-    #different .left p{
-        max-width: 304px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 14px;
-        line-height: 24px;
-        margin-bottom: 24px;
-    }
-
-    #different .left ul{
-        max-width: 225px;
-        margin: 0 auto;
-    }
-
-    #different .left ul li{
+    .banner-left .banner-btn a {
+        padding: 12px 24px;
         font-size: 16px;
-        line-height: normal;
     }
 
-    #different .left a{
-        margin-left: 95px;
-    }
-    /* ################## different end here #################### */
-
-
-    /* ################# popular start here ################### */
-    #popular{
-        padding: 0;
-        padding-bottom: 32px;
-    }
-
-    #popular .heading h2{
-        text-align: center;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 16px;
-    }
-
-    #popular .heading p{
-        max-width: 327px;
-        margin: 0 auto;
-        margin-bottom: 24px;
-        text-align: center;
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    #popular .popular-tabs{
-        padding-right: 26px;
-        padding-left: 26px;
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        justify-content: stretch;
-        gap: 16px;
-        margin-bottom: 24px;
-    }
-
-    #popular .slider .carousel-indicators {
-        bottom: -5px;
-        left: 30%;
-    }
-
-    #popular .slider .carousel-indicators [data-bs-target]{
-        background: #7678ED;
-        margin: 0px 10px;
-    }
-
-    #popular .slider .carousel-indicators .active::after {
+    .banner-left span {
         display: none;
     }
-
-    .pop-btn button{
-        margin-top: 46px;
-    }
-    /* ################## popular end here #################### */
+    /* ######################################### banner end here ################################################ */
 
 
-    /* ################# pricing start here ################### */
-    #pricing{
-        padding:0px;
-        margin-top: 48px;
-        margin-bottom: 56px;
+    /* ######################################### record start here ################################################ */
+    #record {
+        background: #FFF;
+        padding: 20px 0px;
+        margin-bottom: 0px;
     }
 
-    #pricing .heading h2{
-        text-align: center;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 16px; 
+    #record .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
     }
 
-    #pricing .heading p{
-        max-width: 327px;
-        margin: 0 auto;
+    #record .heading p {
+        line-height: 18px;
+    }
+
+    #record .heading {
+        margin-bottom: 12px;
+    }
+
+    #record .record-item {
+        padding: 16px 20px;
         margin-bottom: 24px;
-        text-align: center;
-        font-size: 14px;
-        line-height: 24px;
+    }
+    /* ######################################### record end here ################################################ */
+
+
+    /* ######################################### difference start here ################################################ */
+    #different {
+        padding: 0px; 
+        margin-bottom: 10px;
     }
 
-    #pricing .year{
+    #different .left h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    #different .left p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    #different .left ul li {
+        column-gap: 5px;
+        font-size: 14px;
+        margin-left: 52px;
+        margin-bottom: 14px;
+    }
+
+    #different .left a {
+        display: block;
+        padding: 10px 24px;
+        text-align: center;
+        margin-top: 0px;
+        margin: 24px 80px;
+    }
+    /* ######################################### difference end here ################################################ */
+
+
+    /* ######################################### popular start here ################################################ */
+    #popular {
+        padding: 0;
+        background: #FFF;
+    }
+
+    #popular .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
+    }
+
+    #popular .heading p {
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+    #popular .popular-tabs {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        column-gap: 8px;
+        row-gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .popular-items .item {
+        box-shadow: 0px 20px 15px 0px rgba(15, 13, 35, 0.06);
+    }
+
+    .popular-items {
         margin-bottom: 32px;
     }
 
-    .pricing-items .item{
-        margin-bottom: 24px;
-    }
-    /* ################## pricing end here #################### */
-
-
-    /* ################# articles start here ################### */
-    #articles{
-        padding: 0;
-        padding-bottom: 32px;
-        margin-bottom: 24px;
+    .pop-btn button {
+        padding: 12px 20px;
     }
 
-    #articles .heading h2{
-        font-size: 24px;
-        line-height: 36px;
+    #popular .carousel-indicators {
+        bottom: -20px;
+        left: 35%;
+    }
+
+    #popular .carousel-indicators [data-bs-target] {
+        background: rgb(104, 43, 226);
+        margin: 0px 5px;
+    }
+
+    #popular .carousel-indicators .active::after {
+        display: none;
+    }
+    /* ######################################### popular end here ################################################ */
+
+
+    /* ######################################### pricing start here ################################################ */
+    #pricing {
+        padding: 10px 0px;
+        margin-bottom: 0;
+    }
+
+    #pricing .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
+    }
+
+    #pricing .heading p {
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+    #pricing .year {
+        column-gap: 12px;
+        margin-bottom: 24px;
+    }
+
+    .pricing-items .item {
+        padding: 14px;
+        margin: 14px;
+        border-radius: 14px;
+        box-shadow: 0px 20px 30px 0px rgba(15, 13, 35, 0.1);
+        margin-bottom: 24px;
+    }
+
+    .pricing-items .item h3 {
+        line-height: 30px;
         margin-bottom: 16px;
     }
 
-    #articles .heading p{
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 24px;
+    .pricing-items .item p {
+        line-height: 20px;
+        margin-bottom: 10px;
     }
 
-    #articles .d-flex{
-        flex-direction: column;
-        align-items: center;
+    .pricing-items .item ul {
+        padding-left: 63px;
     }
 
-    #articles .blog{
-        padding: 20px;
-    }
-
-    #articles .blog .image{
-        width: 100%;
-        height: 204px;
-    }
-
-    #articles .blog h3{
-        font-size: 18.031px;
-        line-height: 27.25px;
-        margin-bottom: 13.6px;
-    }
-
-    #articles .blog p{
-        font-size: 11.922px;
-        line-height: 20.437px;
+    .pricing-items .item ul li {
         margin-bottom: 20px;
     }
 
-    #articles .blog a{
-        font-size: 15.328px;
+    .pricing-items .item a {
+        padding: 14px 0px;
+        margin: 0px 40px;
     }
-
-    #articles .slider .carousel-indicators {
-        bottom: -46px;
-        left: 34%;
-    }
-
-    #articles .slider .carousel-indicators [data-bs-target]{
-        background: #7678ED;
-        margin: 0px 15px;
-    }
-
-    #articles .slider .carousel-indicators .active::after {
-        display: none;
-    }
-
-    #articles .art-btn{
-        margin-top: 32px;
-    }
-    /* ################## articles end here #################### */
+    /* ######################################### pricing end here ################################################ */
 
 
-    /* ################# beloved start here ################### */
-    #beloved{
-        padding: 0;
-        padding-top: 24px;
-        background: #FAFAFA;
+    /* ######################################### articles start here ################################################ */
+    #articles {
+        padding: 20px 0px;
+        background: #FFF;
         margin-bottom: 0;
     }
 
-    .margin-c{
-        margin: 0 auto;
+    #articles .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 14px;
     }
 
-    #beloved .heading h2{
-        width: 306px;
-        text-align: center;
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 32px;
-    }
-
-    #beloved .d-flex {
-        margin-bottom: 0;
-    }
-
-    #beloved .carousel {
-        position: relative;
-        top: -20px;
-        z-index: 9999;
-    }
-
-    #beloved .carousel-item .beloved {
-        display: block;
-    }
-
-    #beloved .carousel-item .beloved .item .quotation::after {
-        width: 230px;
-    }
-
-    #beloved .carousel-item .beloved .item {
-        padding: 20px;
-        margin: 24px;
-    }
-
-    #beloved .carousel-item .beloved .item p {
-        max-width: 286px;
-        font-size: 13px;
-        line-height: 23px;
-        margin-bottom: 24px;
-    }
-
-    #beloved .carousel-item .beloved .item .profile .p-image {
-        width: 48px;
-        height: 48px;
-    }
-
-    #beloved .carousel-item .beloved .item .profile .p-details h4 {
-        font-size: 15px;
+    #articles .heading p {
+        max-width: 270px;
+        line-height: 20px;
         margin-bottom: 8px;
     }
 
-    #beloved .carousel-item .beloved .item .profile .p-details p{
+    #articles .blog .image {
+        margin-bottom: 14px;
+    }
+
+    #articles .blog h3 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #articles .blog p {
+        font-size: 13px;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    #articles .blog a {
+        margin: 0px 58px;
+    }
+
+    #articles .blog a i {
+        vertical-align: middle;
+    }
+
+    #articles .carousel-indicators [data-bs-target] {
+        margin: 0px 8px;
+        background: rgb(104, 43, 226);
+    }
+
+    #articles .carousel-indicators {
+        bottom: -15px;
+        left: 38%;
+    }
+
+    #articles .carousel-indicators .active::after {
+        display: none;
+    }
+
+    .art-btn button {
+        margin-top: 46px;
+        padding: 10px 25px;
+    }
+    /* ######################################### articles end here ################################################ */
+
+
+    /* ######################################### beloved start here ################################################ */
+    #beloved {
+        padding-top: 24px;
         margin-bottom: 0;
-        line-height: normal;
-    }
-
-    .blv-btn{
-        position: relative;
-    }
-
-    .blv-btn button {
+        width: 100%;
         position: absolute;
-        left: 86px;
-        bottom: -170px;
-        z-index: 9999;
+        top: 5670px;
+        background: transparent;
     }
 
-    .blv-btn-block:hover{
-        color: #FFF !important;
-        background: transparent; 
-        border: 1px solid #FFF;
+    #beloved .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
     }
 
-    .carousel-indicators {
-        bottom: -60px;
-        left: 34%;
+    #beloved .d-flex {
+        margin-bottom: 34px;
     }
 
-    .carousel-indicators [data-bs-target] {
-        margin: 0px 15px;
-        position: relative;
+    #beloved .carousel-item .beloved {
+        justify-content: center;
     }
 
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        height: 48px;
-        width: 48px;
-        line-height: 48px;
-    }
-
-    .carousel-control-prev {
-        bottom: -78px;
-        left: 45px;
-    }
-
-    .carousel-control-next {
-        bottom: -78px;
-        right: 45px;
-    }
-    /* ################## beloved end here #################### */
-
-
-    /* ################# footer start here ################### */
-    #footer {
-        padding-top: 360px;
+    #beloved .carousel-item .beloved .item {
+        padding: 14px;
+        margin: 24px;
         margin-top: 0;
-        position: relative;
-        z-index: 999;
-        top: -140px;
     }
 
-    #footer .ft-row {
-        margin-left: 4px;
+    #beloved .carousel-item .beloved .item .quotation::after {
+        width: 184px;
+    }
+
+    #beloved .carousel-item .beloved .item p {
+        max-width: 205px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    #beloved .carousel-item .beloved .item .quotation {
+        margin-bottom: 10px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile {
+        margin-top: 22px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile .p-image {
+        width: 56px;
+        height: 56px;
+    }
+
+    #beloved .carousel-item .beloved .item .profile .p-details h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    #beloved .carousel-item .beloved .item p {
+        margin-bottom: 0px;
+    }
+
+    #beloved .carousel-control-prev {
+        bottom: -55px;
+        left: 14px;
+    }
+
+    #beloved .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 47px;
+        width: 56px;
+        line-height: 47px;
+        background: #fff;
+    }
+
+    #beloved .fa-solid {
+        color: #572be2;
+    }
+
+    #beloved .carousel-indicators {
+        bottom: -38px;
+        left: 30%;
+    }
+
+    #beloved .carousel-indicators [data-bs-target] {
+        margin: 0px 15px;
+    }
+
+    #beloved .carousel-control-next {
+        bottom: -55px;
+        right: 14px;
+    }
+
+    #beloved .blv-btn button {
+        margin-top: 90px;
+        padding: 12px 20px;
+    }
+    /* ######################################### beloved end here ################################################ */
+
+
+    /* ######################################### footer start here ################################################ */
+    #footer {
+        margin-top: 290px;
+    }
+
+    #footer .f-image {
+        width: 155px;
+    }
+
+    #footer .f-image img {
+        width: 100%;
     }
 
     #footer .f-credit {
-        max-width: 320px;
-        font-size: 14px;
-        line-height: 24px;
-        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 24px;
     }
 
     #footer .links {
-        display: flex;
-        justify-content: start; 
-        column-gap: 58px;
-        flex-wrap: wrap;
+        column-gap: 20px;
     }
 
-    #footer .links .item:nth-child(2){
-        margin-left: 15px;
+    #footer .links .margin-need {
+        margin-left: 16px;
     }
-    /* ################## footer end here #################### */
+    /* ######################################### footer end here ################################################ */
+
+
+    /* ######################################### navbar start here ################################################ */
+    /* ######################################### navbar start here ################################################ */
+
+
+    /* ######################################### navbar start here ################################################ */
+    /* ######################################### navbar start here ################################################ */
 }
