@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6,p{
     color:#898998;
     text-align: center;
     font-family: Commissioner;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -318,10 +318,12 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 #popular .heading p{
+    margin: 0 auto;
+    max-width: 414px;
     color:#898998;
     text-align: center;
     font-family: Commissioner;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -698,7 +700,7 @@ h1,h2,h3,h4,h5,h6,p{
 #articles .blog h3{
     color:#13132C;
     font-family: Commissioner;
-    font-size: 20px;
+    font-size: 22.94px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
@@ -706,10 +708,10 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 #articles .blog p{
-    max-width: 336px;
+    max-width: 370px;
     color:#898998;
     font-family: Commissioner;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -895,7 +897,13 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 50%;
     text-align: center;
     line-height: 56px;
+    transition: all linear 0.3s;
     background: transparent;
+}
+
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover{
+    color: #7678ED;
+    background: #FFF;
 }
 
 .carousel-control-prev{
@@ -903,7 +911,8 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: end;
     bottom: -82px;
     left: 350px;
-
+    height: 0;
+    top: 354px;
 }
 
 .carousel-control-next{
@@ -911,6 +920,8 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: start;
     bottom: -82px;
     right: 360px;
+    height: 0;
+    top: 354px;
     z-index: 999;
 }
 
